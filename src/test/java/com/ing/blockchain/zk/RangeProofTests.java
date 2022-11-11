@@ -84,7 +84,7 @@ public class RangeProofTests {
 
     @Test
     public void testValidRangeProof() throws Exception {
-        BigInteger x = new BigInteger("99");
+        BigInteger x = new BigInteger("10");
 
         TTPMessage message = TTPGenerator.generateTTPMessage(x, EXAMPLE_GROUP);
         ClosedRange range = ClosedRange.of("10", "100");
